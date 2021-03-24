@@ -33,5 +33,5 @@ The notebooks are presented here in the recommended reading order.  After the fi
 
 The links here are suitable for pasting into the "open" text box on Pluto's welcome page.
 
-- [`1/uvh5_explorations.jl`](raw/main/1/uvh5_explorations.jl) is recommended as the starting notebook.  It covers the basics of the UVH5 file format, radio astronomy in general, and even some Julia programming techniques.
-- [`2/uvh5_and_spatial_awareness.jl`](raw/main/2/uvh5_and_spatial_awareness.jl) goes into detail about some of the various reference frames used with radio telescope arrays, how to convert between them, and how to read various positional data from a UVH5 data file.  It is far from exhaustive so you can look forward to future notebooks that delve into additional details on this topic.
+- [`1/uvh5_explorations.jl`](1/uvh5_explorations.jl) is recommended as the starting notebook.  It covers the basics of the UVH5 file format, radio astronomy in general, and even some Julia programming techniques.
+- [`2/uvh5_and_spatial_awareness.jl`](2/uvh5_and_spatial_awareness.jl) goes into detail about some of the various reference frames used with radio telescope arrays, how to convert between them, and how to read various positional data from a UVH5 data file.  It is far from exhaustive so you can look forward to future notebooks that delve into additional details on this topic.
