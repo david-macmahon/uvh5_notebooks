@@ -15,15 +15,15 @@ Once you have Julia and Pluto installed, you can run the notebooks straight off 
 Simply follow these steps:
 
 1. Run Pluto as described in the instructions linked to above
-2. Connect your web browser to the indicated URL to get Pluto's welcome page
-3. Copy/paste the URL of the notebook (in "raw" format) into the "Open from file:" text box
+2. Open the indicated URL in your browser (if it didn't opwn automatically)
+3. Copy/paste the URL of the notebook "raw" format (see below) into the "Open from file:" text box
 4. Click the "Open" button
 
 The first time you load a notebook it will download any additional Julia packages needed by the notebook (e.g. for plotting, HDF5 file access, etc).  This may take a little while, but the next time you open the notebook it will be faster.  The downloaded packages are shared across notebooks, so the initialization time will be longest for the first notebook you run.  The notebooks also download an example UVH5 data file that is similarly shared between the notebooks so it only gets downloaded and stored on your system one time.  The example data file is a 2.3 MB download that expands to a 4.4 MB file.
 
 All of the notebooks here have a Table of Contents that will appear in the upper right corner of the notebook when it has finished initializing.
 
-If you run a notebook from the web, a copy of the notebook will be saved locally.  Links to locally saved notebooks will appear in the "Recent sessions" section of Pluto's welcome page.  If you hover your cursor over these links, some browsers will show the path name of the linked notebook file.
+If you run a notebook from the web, a copy of the notebook will be saved locally, but Pluto will give it an arbitrary name like `Random_notebook.jl`, so you may want to save it with a more meaningful name using the "Save notebook..." field at the top of the notebook.  Links to locally saved notebooks will appear in the "Recent sessions" section of Pluto's welcome page.  If you hover your cursor over these links, most browsers will show the path name of the linked notebook file.
 
 Of course you can also clone this repository to get local copies of these notebooks all at once.  This is the recommended way to get and run the notebooks if you want to create pull requests to improve the notebooks.  Contributions welcome!
 
